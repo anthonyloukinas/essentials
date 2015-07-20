@@ -1,0 +1,9 @@
+name: essentials
+description: a simplified essentials for 1.8
+main: net.anthonyloukinas.essentials.Main
+version: 1.0
+commands:
+    heal:
+        description: Heal a player or yourself!
+    chickenstorm:
+        description: Start a chickenstorm around your location!
