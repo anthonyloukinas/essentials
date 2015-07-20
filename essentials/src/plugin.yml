@@ -7,3 +7,9 @@ commands:
         description: Heal a player or yourself!
     chickenstorm:
         description: Start a chickenstorm around your location!
+    teleport:
+        description: Teleport to another player!
+    creative:
+        description: Change gamemode to creative
+    survival:
+        description: Change gamemode to survival

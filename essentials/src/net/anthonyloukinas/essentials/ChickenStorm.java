@@ -54,6 +54,6 @@ public class ChickenStorm implements Listener, CommandExecutor{
 		}
 		
 		//Do something here
-		p.sendMessage(ChatColor.GOLD + "You have spawned " + ChatColor.GREEN + quantity + " of chickens!");
+		p.sendMessage(ChatColor.GOLD + "You have spawned " + ChatColor.GREEN + quantity + ChatColor.GOLD + " chickens!");
 	}
 }

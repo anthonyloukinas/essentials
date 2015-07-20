@@ -11,6 +11,9 @@ public class Main extends JavaPlugin{
 		new JoinListener(this);
 		getCommand("chickenstorm").setExecutor(new ChickenStorm (this));
 		getCommand("heal").setExecutor(new Heal(this));
+		getCommand("teleport").setExecutor(new Teleport(this));
+		getCommand("survival").setExecutor(new Gamemode(this));
+		getCommand("creative").setExecutor(new Gamemode(this));
 	}
 	
 	@Override
